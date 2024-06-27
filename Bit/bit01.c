@@ -1,6 +1,7 @@
 #include<stdio.h>
 enum BitState
 {
+	//
 	Base = 0,			//0000 0000
 	Poison = 1 << 0,	//0000 0001
 	Sleep = 1 << 1,		//0000 0010
